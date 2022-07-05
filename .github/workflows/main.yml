@@ -6,7 +6,7 @@ jobs:
     name: Python action
     steps:
       - uses: actions/checkout@v3
-      - uses: codingloop/google-play-publish@v1
+      - uses: codingloop/google-play-publish@main
         with:
           config_file: 'Iam config file'
           playstore_secret: 'I am a secret'
