@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  test_py_job:
+    runs-on: ubuntu-latest
+    name: Python action
+    steps:
+      - uses: actions/checkout@v3
+      - uses: codingloop/google-play-publish@v1
+        with:
+          config_file: 'Iam config file'
+          playstore_secret: 'I am a secret'
