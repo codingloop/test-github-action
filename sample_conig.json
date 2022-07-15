@@ -1,5 +1,5 @@
 {
-  "repo": "codingloop/google-play-publish",
+  "repo": "codingloop/test-github-action",
   "package_name": "in.test.package_name",
   "secret_file": "/path/to/secret/file",
   "app_file_type": "aab",
